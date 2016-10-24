@@ -1,0 +1,97 @@
+body{
+    background: #454545;
+    padding: 2%;
+    font-family: 'josefin sans', sans-serif;
+    font-size: 22px;
+    color: #FAFAFA;
+    line-height: 26px;
+    text-align: justify;
+}
+
+
+
+
+nav{
+    width: 100%;
+    margin: 1% auto;
+    overflow: hidden;
+    text-decoration: none;
+    list-style: none;
+
+}
+nav ul{
+    list-style: none;
+    overflow: hidden;
+    text-decoration: none;
+
+}
+
+nav li a {
+    background: #737373;
+    border-right: 1px solid #454545;
+    color: #FAFAFA;
+    display: block;
+    float: left;
+    font-size: 120%;
+    font-weight: 600;
+    padding: 3%;
+    text-decoration: none;
+    width: 18.5%;
+    transition: background 0.5s ease;
+}
+
+nav li a:hover, nav li.active a{
+    background: #DADADA;
+    color: #454545;
+}
+
+section{
+    float: left;
+    width: 29%;
+    padding: 2%;
+    margin: 1% 0;
+    background: #6B6B6B;
+}
+
+
+
+@media only screen and (max-width: 780px) {
+    nav {
+        margin: 2% auto;
+    }
+
+    nav li a {
+        width: 40%;
+        font-size: 80%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        border-bottom: 1px solid #454545;
+    }
+    section{
+        width: 88%;
+    }
+    h1{
+        font-size: 105%;
+    }
+    p{
+        font-size: 95%;
+    }
+}
+@media only screen and (max-width: 580px) {
+
+
+    nav li a {
+        width: 38%;
+        font-size: 80%;
+
+    }
+    section{
+        width: 84%;
+    }
+    h1{
+        font-size: 95%;
+    }
+    p{
+        font-size: 75%;
+    }
+}
